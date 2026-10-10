@@ -64,21 +64,36 @@ Retrieves a paginated list of published engineering projects, creative experimen
   "data": [
     {
       "id": "proj_01",
-      "slug": "enigma-portfolio",
-      "title": "Adi Cahyadi Ramadhan Portfolio",
-      "category": "creative-web",
-      "tagline": "Modern 3D Interactive Portfolio & Engineering Showcase",
-      "technologies": ["Next.js", "Three.js", "Tailwind CSS", "Framer Motion"],
-      "liveUrl": "https://adicahyadir.dev",
-      "githubUrl": "https://github.com/adicahyadir/portfolio",
-      "featured": true
+      "slug": "asmodarkness-apparel",
+      "title": "E-Commerce ASMODARKNESS™ APPAREL",
+      "category": "template",
+      "tagline": "Modern High-Performance Streetwear & Apparel E-Commerce",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "liveUrl": "https://adicahyadir-portfolio.vercel.app/",
+      "githubUrl": "https://github.com/adicahyadir",
+      "featured": true,
+      "status": "completed",
+      "year": 2026
+    },
+    {
+      "id": "proj_02",
+      "slug": "cbt-desa",
+      "title": "CBT DESA — Computer Based Test (CAT Style)",
+      "category": "full-stack",
+      "tagline": "Computer-Based Civil Service & Official Assessment Platform",
+      "technologies": ["Node.js", "React", "PostgreSQL", "Tailwind CSS"],
+      "liveUrl": "https://adicahyadir-portfolio.vercel.app/",
+      "githubUrl": "https://github.com/adicahyadir",
+      "featured": true,
+      "status": "completed",
+      "year": 2025
     }
   ],
   "meta": {
     "page": 1,
     "limit": 10,
-    "totalRecords": 18,
-    "totalPages": 2
+    "totalRecords": 7,
+    "totalPages": 1
   }
 }
 ```
@@ -95,7 +110,7 @@ Fetches the complete specification, architecture notes, and metadata for a speci
 
 * **Authentication:** None (Public)
 * **Path Parameters:**
-  * `:identifier` (`string`, required): The project UUID or unique slug (e.g. `enigma-portfolio`).
+  * `:identifier` (`string`, required): The project UUID or unique slug (e.g. `asmodarkness-apparel`).
 
 ### Response `200 OK`
 
@@ -104,14 +119,14 @@ Fetches the complete specification, architecture notes, and metadata for a speci
   "status": "success",
   "data": {
     "id": "proj_01",
-    "slug": "enigma-portfolio",
-    "title": "Adi Cahyadi Ramadhan Portfolio",
-    "category": "creative-web",
-    "description": "Comprehensive creative development portfolio featuring real-time WebGL canvas, smooth spring-based physics, and tokenized design system.",
-    "technologies": ["Next.js", "TypeScript", "Three.js", "Tailwind CSS", "Framer Motion"],
+    "slug": "asmodarkness-apparel",
+    "title": "E-Commerce ASMODARKNESS™ APPAREL",
+    "category": "template",
+    "description": "Editorial dark-mode streetwear commerce with zero-friction checkout, optimized media pipeline, and physics-based micro-interactions.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     "metrics": {
-      "lighthouseScore": 98,
-      "bundleSizeKb": 142
+      "lighthouseScore": 99,
+      "bundleSizeKb": 128
     },
     "createdAt": "2026-01-15T00:00:00Z",
     "updatedAt": "2026-10-10T00:00:00Z"

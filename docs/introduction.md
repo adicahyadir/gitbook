@@ -4,16 +4,18 @@ description: Discover the vision, background, engineering philosophy, and creati
 
 # Introduction & Philosophy
 
-## 👨‍💻 About Adi Cahyadi Ramadhan (EnigmaAura)
+## 👨‍💻 About Adi Cahyadi Ramadhan, S.T. (EnigmaAura)
 
-**Adi Cahyadi Ramadhan**, operating under the professional alias **EnigmaAura** and brand monogram **ACR**, is an Indonesian Frontend Engineer, UI/UX Designer, and Creative Developer.
+**Adi Cahyadi Ramadhan, S.T.**, operating under the professional alias **EnigmaAura** and brand monogram **ACR**, is an Indonesian Frontend Engineer, UI/UX Designer, and Creative Developer with an engineering degree from **Universitas Suryakancana**.
 
 Operating at the intersection of aesthetic digital design and robust software engineering, Adi focuses on crafting web applications that combine high-performance code architecture with memorable visual impact.
 
-* **Primary Portal:** [adicahyadir.dev](https://adicahyadir.dev)
+* **Live Portfolio:** [adicahyadir-portfolio.vercel.app](https://adicahyadir-portfolio.vercel.app/)
+* **Primary Domain:** [adicahyadir.dev](https://adicahyadir.dev)
 * **GitHub:** [github.com/adicahyadir](https://github.com/adicahyadir)
-* **Role:** Senior Frontend Engineer • UI/UX Designer • Creative Web Developer
-* **Domain Focus:** Interactive Web, Design Systems, Scalable Frontend Architecture, AI Interfaces
+* **Role:** Frontend Engineer • UI/UX Designer • Creative Web Developer
+* **Honors & Competitions:** Bronze Medal (Zero Trust Security), 3x Silver Medals
+* **Domain Focus:** Interactive Web Apps, Modern Design Systems, GovTech Solutions, AI Interfaces
 
 ---
 

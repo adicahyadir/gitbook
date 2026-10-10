@@ -9,7 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://adicahyadir.dev"><img src="https://img.shields.io/badge/Portfolio-adicahyadir.dev-0969da?style=flat-square" alt="Portfolio" /></a>
+  <a href="https://adicahyadir-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Live%20Portfolio-adicahyadir--portfolio.vercel.app-000000?style=flat-square&logo=vercel" alt="Live Portfolio" /></a>
+  <a href="https://adicahyadir.dev"><img src="https://img.shields.io/badge/Domain-adicahyadir.dev-0969da?style=flat-square" alt="Domain" /></a>
   <a href="docs/README.md"><img src="https://img.shields.io/badge/GitBook-Documentation-blueviolet?style=flat-square" alt="GitBook" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" /></a>
   <img src="https://img.shields.io/badge/Architecture-Clean%20%26%20Modular-informational?style=flat-square" alt="Architecture" />

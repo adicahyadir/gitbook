@@ -9,7 +9,7 @@ description: Standardized engineering RFC and project documentation template for
 
 ---
 
-# [Project Title]
+## [Project Title]
 
 <p align="center">
   <strong>[One-line elevator pitch or tagline describing the product]</strong>

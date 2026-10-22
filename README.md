@@ -1,108 +1,57 @@
-# ACR Engineering Documentation
+# ACR Engineering Documentation (GitBook Source)
+
+This repository is the source for the **ACR Engineering Documentation** GitBook, published at
+[enigmatics.gitbook.io/dev-magang](https://enigmatics.gitbook.io/dev-magang).
 
 <p align="center">
-  <strong>Technical Knowledge Base by Adi Cahyadi Ramadhan (EnigmaAura)</strong>
-</p>
-
-<p align="center">
-  <em>Frontend Engineer • UI/UX Designer • Creative Developer</em>
-</p>
-
-<p align="center">
-  <a href="https://adicahyadir-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Live%20Portfolio-adicahyadir--portfolio.vercel.app-000000?style=flat-square&logo=vercel" alt="Live Portfolio" /></a>
-  <a href="https://adicahyadir.dev"><img src="https://img.shields.io/badge/Domain-adicahyadir.dev-0969da?style=flat-square" alt="Domain" /></a>
   <a href="docs/README.md"><img src="https://img.shields.io/badge/GitBook-Documentation-blueviolet?style=flat-square" alt="GitBook" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" /></a>
-  <img src="https://img.shields.io/badge/Architecture-Clean%20%26%20Modular-informational?style=flat-square" alt="Architecture" />
 </p>
 
----
+## Repository Purpose
 
-## 🧭 Overview
+All content in `docs/` renders as the published GitBook. Changes committed to `main` are the source of truth for that publication — there is no separate publishing step in this repository itself.
 
-Welcome to the **ACR Engineering Documentation Portal**. This repository serves as the official developer documentation and engineering handbook for all projects, applications, UI/UX design tokens, micro-experiments, and system architecture blueprints developed by **Adi Cahyadi Ramadhan** (alias **EnigmaAura**).
-
-Designed in full compliance with **GitBook**, this repository structures technical knowledge using industry-grade documentation standards inspired by **Vercel Docs**, **Next.js**, **Stripe API**, and **Linear Engineering**.
-
-> **Engineering Principle:**  
-> *"Fast • Beautiful • Functional • User-Centered"*
-
----
-
-## 📚 Documentation Structure
+## Directory Structure
 
 ```text
-docs/
-├── README.md              # Landing Documentation & Quick Navigator
-├── introduction.md        # About EnigmaAura / ACR & Engineering Philosophy
-├── tech-stack.md          # Technology Stack, Frameworks & Best Practices
-├── architecture.md        # System Architecture & Clean Component Flow
-├── api/
-│   ├── overview.md        # API Architecture, Protocols & Standards
-│   ├── authentication.md  # Auth Patterns, JWT, OAuth & RBAC
-│   └── endpoints.md       # Standardized Endpoints & Request/Response Contracts
-├── projects/
-│   ├── project-list.md    # Showcase of ACR Ecosystem Projects & Repos
-│   └── project-template.md# Engineering RFC & Production Project Template
-├── components/
-│   └── design-system.md   # ACR Design System, Tokens, Typography & Reusable Components
-├── development/
-│   ├── setup.md           # Local Prerequisites & Installation Guide
-│   ├── environment.md     # Secrets, .env Schema & Zod Validation
-│   └── deployment.md      # CI/CD Workflows, Vercel & Production Checklist
-└── changelog.md           # Version Release History & Milestones
+.
+├── .gitbook.yaml      # GitBook configuration (root, landing page, navigation source)
+├── SUMMARY.md         # Repository-level table of contents (points into docs/)
+├── docs/              # GitBook documentation root (see .gitbook.yaml)
+│   ├── README.md      # Landing page (GitBook `structure.readme`)
+│   ├── SUMMARY.md     # GitBook navigation (GitBook `structure.summary`)
+│   ├── introduction.md
+│   ├── tech-stack.md
+│   ├── architecture.md
+│   ├── api/
+│   ├── projects/
+│   ├── components/
+│   ├── development/
+│   └── changelog.md
+└── LICENSE
 ```
 
----
+## Editing the Documentation
 
-## ⚡ Quick Navigation
+1. Edit the relevant file under `docs/` (keep Markdown lint-clean, consistent heading hierarchy, and correct relative links).
+2. If you add a new page, register it in `docs/SUMMARY.md` — GitBook only surfaces pages that appear in the summary/navigation file for the `./docs` root.
+3. Run `git commit` — GitBook picks up `main` automatically.
 
-| Section | Description | Link |
-| :--- | :--- | :--- |
-| **Introduction** | Background, engineering philosophy, and creative developer mindset. | [Read Introduction](docs/introduction.md) |
-| **Tech Stack** | Deep dive into React, Next.js, TypeScript, Tailwind CSS, Three.js, and Framer Motion. | [Explore Stack](docs/tech-stack.md) |
-| **Architecture** | Component lifecycle, state topology, data-flow diagrams with Mermaid. | [Inspect Architecture](docs/architecture.md) |
-| **API Reference** | Specifications, authentication workflows, and REST/RPC endpoints. | [API Docs](docs/api/overview.md) |
-| **Design System** | Neon dark-mode palette, glassmorphism tokens, and responsive UI components. | [Design System](docs/components/design-system.md) |
-| **Development** | Setup commands, environment secrets, and deployment recipes. | [Dev Guide](docs/development/setup.md) |
+## Checking Navigation & Links
 
----
+- `SUMMARY.md` (root) and `docs/SUMMARY.md` are mirrors of each other; keep both in sync.
+- There is no package.json-based validator in this repo, so verify links manually or with an external tool (e.g., `markdown-link-check`) before pushing.
 
-## 🛠️ Local Development & Preview
+## Relationship to the Published Site
 
-To preview this documentation locally using GitBook CLI or a markdown live server:
+The published site at `enigmatics.gitbook.io/dev-magang` is generated from this repository via GitBook's built-in sync. Editing content here does **not** require a separate `gitbook publish` step in this repo.
 
-### Prerequisites
+## License
 
-- [Node.js](https://nodejs.org/) (>= 18.x)
-- npm or pnpm
+MIT — see [`LICENSE`](LICENSE).
 
-### Running with GitBook or Markdown Viewer
+## Author
 
-```bash
-# Clone the repository
-git clone https://github.com/adicahyadir/gitbook.git
-cd gitbook
-
-# Option A: Preview via GitBook CLI (if installed globally)
-npx gitbook-cli serve
-
-# Option B: Run a local markdown live server
-npx docsify-cli serve docs
-```
-
----
-
-## 👤 Author & Connect
-
-- **Engineer:** Adi Cahyadi Ramadhan
-- **Alias:** EnigmaAura
-- **Brand:** ACR • `adicahyadir.dev`
+- **Engineer:** Adi Cahyadi Ramadhan (EnigmaAura)
 - **GitHub:** [@adicahyadir](https://github.com/adicahyadir)
-- **Role:** Frontend Engineer • UI/UX Designer • Creative Developer
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for full details.
